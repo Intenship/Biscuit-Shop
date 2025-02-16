@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link " onClick={() => handleClick('/Biscuit-Shop')} style={{ color: activelink === '/Biscuit-Shop' ? 'yellow' : 'white',fontSize: '1.3rem',marginRight:'15px' }} to="/Biscuit-Shop">
+              <Link className="nav-link " onClick={() => handleClick('/')} style={{ color: activelink === '/' ? 'yellow' : 'white',fontSize: '1.3rem',marginRight:'15px' }} to="/">
                 Home
               </Link>
             </li>
